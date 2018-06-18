@@ -81,16 +81,24 @@ img.biking_anim {
 	width: 800px;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
+  img.title_gif {
+  	width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
   img.biking_anim {
   	width: 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-	img.biking_anim {
-  		width: 100%;
-  	}
+
+#mc_embed_signup .email{
+	width: 80%;
+}
+
 	.screenshot {
 	display: inline;
 	width: 100%;
